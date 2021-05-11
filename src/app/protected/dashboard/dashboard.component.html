@@ -1,0 +1,12 @@
+<h1>Dashboard</h1>
+<hr>
+<p>
+    Si estas aqui, es porque te has autenticado correctamente
+</p>
+
+<h4>Informacion del usuario</h4>
+<pre>
+    {{usuario | json }}
+</pre>
+
+<button (click)="logOut()">LogOut</button>
